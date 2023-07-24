@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/beeline_navigation"
+    app:startDestination="@id/home_beeline">
+
+    <fragment
+        android:id="@+id/home_beeline"
+        android:name="com.example.beeline.Home_beeline"
+        android:label="fragment_home_beeline"
+        tools:layout="@layout/fragment_home_beeline" >
+        <action
+            android:id="@+id/HomeBeelineToTarifFragment"
+            app:destination="@id/tarifFragment" />
+        <action
+            android:id="@+id/action_home_beeline_to_internetFragment"
+            app:destination="@id/internetFragment" />
+        <action
+            android:id="@+id/action_home_beeline_to_smslarFragment"
+            app:destination="@id/smslarFragment" />
+        <action
+            android:id="@+id/action_home_beeline_to_yangilikFragment"
+            app:destination="@id/yangilikFragment" />
+        <action
+            android:id="@+id/action_home_beeline_to_xizmatlarFragment"
+            app:destination="@id/xizmatlarFragment" />
+        <action
+            android:id="@+id/action_home_beeline_to_daqiqaFragment"
+            app:destination="@id/daqiqaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/yangilikFragment"
+        android:name="com.example.beeline.fragmentHome.YangilikFragment"
+        android:label="fragment_yangilik"
+        tools:layout="@layout/fragment_yangilik" />
+    <fragment
+        android:id="@+id/daqiqaFragment"
+        android:name="com.example.beeline.fragmentHome.DaqiqaFragment"
+        android:label="fragment_daqiqa"
+        tools:layout="@layout/fragment_daqiqa" />
+    <fragment
+        android:id="@+id/smslarFragment"
+        android:name="com.example.beeline.fragmentHome.SmslarFragment"
+        android:label="fragment_smslar"
+        tools:layout="@layout/fragment_smslar" />
+    <fragment
+        android:id="@+id/internetFragment"
+        android:name="com.example.beeline.fragmentHome.InternetFragment"
+        android:label="fragment_internet"
+        tools:layout="@layout/fragment_internet" />
+    <fragment
+        android:id="@+id/tarifFragment"
+        android:name="com.example.beeline.fragmentHome.TarifFragment"
+        android:label="fragment_tarif"
+        tools:layout="@layout/fragment_tarif" >
+        <action
+            android:id="@+id/TarifToTarifOson"
+            app:destination="@id/fragment_Tarif_Oson" />
+        <action
+            android:id="@+id/TarifToTaridStatus"
+            app:destination="@id/fragment_Tarif_status" />
+        <action
+            android:id="@+id/TarifToTarifYana2"
+            app:destination="@id/fragment_Tarif_yana2" />
+        <action
+            android:id="@+id/TarifToTarifHammasiZor"
+            app:destination="@id/fragment_Tarif_Hammasi_zor" />
+    </fragment>
+    <fragment
+        android:id="@+id/xizmatlarFragment"
+        android:name="com.example.beeline.fragmentHome.XizmatlarFragment"
+        android:label="fragment_xizmatlar"
+        tools:layout="@layout/fragment_xizmatlar" />
+    <fragment
+        android:id="@+id/fragment_Tarif_Hammasi_zor"
+        android:name="com.example.beeline.FragmentTarif.Fragment_Tarif_Hammasi_zor"
+        android:label="fragment__tarif__hammasi_zor"
+        tools:layout="@layout/fragment__tarif__hammasi_zor" >
+        <action
+            android:id="@+id/action_fragment_Tarif_Hammasi_zor_to_tarifFragment"
+            app:destination="@id/tarifFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_Tarif_Oson"
+        android:name="com.example.beeline.FragmentTarif.Fragment_Tarif_Oson"
+        android:label="fragment__tarif__oson"
+        tools:layout="@layout/fragment__tarif__oson" >
+        <action
+            android:id="@+id/action_fragment_Tarif_Oson_to_tarifFragment"
+            app:destination="@id/tarifFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_Tarif_status"
+        android:name="com.example.beeline.FragmentTarif.Fragment_Tarif_status"
+        android:label="fragment__tarif_status"
+        tools:layout="@layout/fragment__tarif_status" >
+        <action
+            android:id="@+id/action_fragment_Tarif_status_to_tarifFragment"
+            app:destination="@id/tarifFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_Tarif_yana2"
+        android:name="com.example.beeline.FragmentTarif.Fragment_Tarif_yana"
+        android:label="fragment__tarif_yana"
+        tools:layout="@layout/fragment__tarif_yana" >
+        <action
+            android:id="@+id/action_fragment_Tarif_yana2_to_tarifFragment"
+            app:destination="@id/tarifFragment" />
+    </fragment>
+</navigation>

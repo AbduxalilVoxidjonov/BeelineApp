@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:id="@+id/yana_tariflarri"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+tools:context=".FragmentTarif.Fragment_Tarif_yana">
+
+<ScrollView
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ScrollViewCount">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/yana_tarif"
+            android:src="@drawable/tarif_yana"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:scaleType="centerCrop"
+            tools:ignore="MissingConstraints"
+            android:contentDescription="TODO" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#ECECEC"
+                app:cardCornerRadius="30dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp">
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@drawable/infinity"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_marginStart="10dp"
+                android:textAlignment="textStart"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="O'zbekiston bo'ylab cheksiz qo'ng'iroqlar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+        <View
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#ECECEC"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            tools:ignore="RtlSymmetry" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#ECECEC"
+                app:cardCornerRadius="30dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp">
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@drawable/internet2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_marginStart="10dp"
+                android:textAlignment="textStart"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="5 GB barcha yo'nalishlarga"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+        <View
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#ECECEC"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            tools:ignore="RtlSymmetry" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#ECECEC"
+                app:cardCornerRadius="30dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp">
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@drawable/internet2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_marginStart="10dp"
+                android:textAlignment="textStart"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="5 GB tungi bonus (01:00-08:00)"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+        <View
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#ECECEC"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            tools:ignore="RtlSymmetry" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#ECECEC"
+                app:cardCornerRadius="30dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp">
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@drawable/internet2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_marginStart="10dp"
+                android:textAlignment="textStart"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="10 GB Telegram, Viber, WhatsApp uchun"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+        <View
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#ECECEC"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            tools:ignore="RtlSymmetry" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#ECECEC"
+                app:cardCornerRadius="30dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp">
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@drawable/sms2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_marginStart="10dp"
+                android:textAlignment="textStart"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="500 SMS O'zbekiston bo'yicha"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+        <View
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#ECECEC"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            tools:ignore="RtlSymmetry" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#ECECEC"
+                app:cardCornerRadius="30dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp">
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@drawable/tv"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_marginStart="10dp"
+                android:textAlignment="textStart"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="Beeline Tv:Telekanallar va Amediateka"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+        <View
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#ECECEC"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            tools:ignore="RtlSymmetry" />
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#ECECEC"
+            app:cardCornerRadius="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+            <TextView
+                android:text="24 000 so'm/oy"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
